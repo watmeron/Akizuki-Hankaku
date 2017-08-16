@@ -1,0 +1,21 @@
+{
+
+  "manifest_version": 2,
+  "name": "Akizuki Hankaku",
+  "version": "1.0",
+ 
+  "description": "Akizuki Denshi webpages change.",
+  
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://akizukidenshi.com/catalog/*"],
+      "js": ["main.js"]
+			"run_at": ["document_end"]
+    }
+  ]
+
+}
