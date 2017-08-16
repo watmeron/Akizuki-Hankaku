@@ -1,0 +1,2 @@
+# Akizuki-Hankaku
+秋月電子ウェブサイトの全角英数字を半角に置き換えるだけのFireFox WebExtensionです。
